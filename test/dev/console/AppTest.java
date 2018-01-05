@@ -33,10 +33,7 @@ public class AppTest {
 	
 	/** LOG : Logger */
 	public static final Logger LOG = LoggerFactory.getLogger(CalculServiceTest.class);
-	
-	/**
-	 * @throws Exception
-	 */
+
 	@Before
 	public void setUp() throws Exception {
 		//this.calculService = new CalculService();
@@ -48,9 +45,6 @@ public class AppTest {
 		this.app = new App(sc, calculService);
 	}
 
-	/**
-	 * @throws Exception
-	 */
 	@Test
 	public void testAfficherTitre() throws Exception {
 		this.app.afficherTitre();
